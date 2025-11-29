@@ -1,0 +1,66 @@
+10ALYTICS GLOBAL HACKATHON 2025 - SUBMISSION PACKAGE
+=====================================================
+
+Submitted by: Basit Balogun (basitbalogun10@gmail.com)
+GitHub Repository: https://github.com/Basit-Balogun10/africa-governance-growth-gap-analysis
+Date: November 29, 2025
+
+CONTENTS OF THIS ZIP:
+---------------------
+
+1. PRESENTATION (START HERE):
+   - presentation/10Alytics_Governance_Growth_Gap.pptx (16 slides with embedded images)
+
+2. WORKING FILES (Jupyter Notebooks):
+   - notebooks/01_data_exploration.ipynb
+   - notebooks/02_data_cleaning.ipynb
+   - notebooks/03_feature_engineering.ipynb
+   - notebooks/04_eda_story_finding.ipynb
+   - notebooks/05_visualization_dashboard.ipynb
+   - notebooks/06_interactive_visualizations.ipynb
+
+3. VISUALIZATIONS:
+   - visualizations/*.png (6 static charts @ 300 DPI)
+   - visualizations/*.html (4 interactive Plotly charts)
+   - visualizations/INTERACTIVE_DASHBOARD.html (Master dashboard)
+
+4. DATA:
+   - data/raw/ (Original dataset)
+   - data/processed/ (Cleaned datasets)
+
+5. DOCUMENTATION:
+   - README.md (Judge-focused overview - START HERE!)
+   - docs/technical/ (Technical documentation)
+   - docs/guides/SUBMISSION_PACKAGE.md (Complete deliverables checklist)
+   - docs/guides/PRESENTATION_DECK.md (Slide-by-slide guide)
+   - docs/guides/QUESTIONS_ANSWERED.md (FAQ responses)
+
+NOTE: Full pitch speech script available for physical finale if shortlisted.
+      GitHub repo contains complete project history: https://github.com/Basit-Balogun10/africa-governance-growth-gap-analysis
+
+KEY FINDINGS:
+-------------
+- Analyzed 14 African countries (2010-2025, 224 observations)
+- Discovered "Efficiency Gap": -0.156 correlation between tax efficiency and growth
+- Ethiopia achieves 2.4× Egypt's growth despite lower tax collection
+- Root cause: Infrastructure spending (Ethiopia 11.6× better ROI)
+- 5 data-backed policy recommendations
+
+HOW TO VIEW INTERACTIVE DASHBOARD:
+-----------------------------------
+1. Extract this ZIP file
+2. Open: visualizations/INTERACTIVE_DASHBOARD.html in any browser
+3. No server needed - works offline!
+
+REPRODUCIBILITY:
+----------------
+All notebooks are executable. To reproduce:
+1. Install Python 3.14+ with packages: pandas, numpy, matplotlib, seaborn, scikit-learn, plotly
+2. Run notebooks in order: 01 → 02 → 03 → 04 → 05 → 06
+3. Total runtime: ~40 minutes
+
+CONTACT:
+--------
+Basit Balogun
+Email: basitbalogun10@gmail.com
+GitHub: https://github.com/Basit-Balogun10
