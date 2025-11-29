@@ -7,15 +7,18 @@
 
 ## 🎯 EXECUTIVE SUMMARY
 
-**Key Finding:** Better tax collection does NOT guarantee economic growth across 14 African countries (2010-2025).
+**Key Finding:** Better tax collection does NOT guarantee economic growth. We analyzed **14 African countries** (2010-2025, 623 observations) and discovered the opposite.
 
-**The Paradox:**
-- **Ethiopia** (12.8% tax-to-GDP) achieves **7.7% growth**
-- **Egypt** (15.2% tax-to-GDP) achieves only **3.6% growth**
+**Countries Analyzed:** Algeria, Angola, Botswana, Egypt, Ethiopia, Ghana, Ivory Coast, Kenya, Morocco, Nigeria, Rwanda, Senegal, South Africa, Tanzania
+
+**The Paradox (Illustrated by Ethiopia vs Egypt):**
+- **Ethiopia** (12.8% tax-to-GDP) achieves **7.7% growth** → Top performer from our 14-country dataset
+- **Egypt** (15.2% tax-to-GDP) achieves only **3.6% growth** → Contrast case from same dataset
+- **These are case studies from the full analysis, not the entire scope**
 
 **Why?** Infrastructure spending efficiency. Ethiopia invests 28% of budget in capital expenditure with **11.6× better ROI** than Egypt's 22% allocation.
 
-**Correlation:** Tax-to-GDP vs GDP Growth = **-0.156** (weak/negative) across all 14 countries.
+**Correlation:** Tax-to-GDP vs GDP Growth = **-0.156** (weak/negative) across all 14 countries and 223 observations.
 
 ---
 
@@ -32,11 +35,16 @@
 - `03_covid_impact_INTERACTIVE.html` - Animated time series (2015-2023)
 - `04_ethiopia_vs_egypt_INTERACTIVE.html` - Case study comparison
 
-### **2. Presentation Deck**
+### **2. Presentation Deck + Commentary**
 📂 `presentation/10Alytics_Governance_Growth_Gap.pptx`
 - 16 slides with narrative arc
 - 6 embedded visualizations
 - Policy recommendations
+
+📂 `presentation/SLIDE_COMMENTARY.md` ⭐ **JUDGES: READ THIS!**
+- Slide-by-slide context and methodology
+- Explains why Egypt/Ethiopia are case studies from 14-country analysis
+- Open side-by-side with PowerPoint for best understanding
 
 ### **3. Analysis Notebooks (Working Files)**
 📂 `notebooks/` - Execute in order:
@@ -47,7 +55,14 @@
 5. `05_visualization_dashboard.ipynb` - Generate static PNG charts
 6. `06_interactive_visualizations.ipynb` - Generate interactive HTML charts
 
-### **4. Key Documentation**
+### **4. README for Judges** ⭐
+📂 `README_FOR_JUDGES.md`
+- **Extract ZIP first before viewing**
+- Quick start guide (3 steps)
+- Complete file inventory
+- Critical note on analysis scope (14 countries, not just Egypt/Ethiopia)
+
+### **5. Key Documentation**
 📂 `docs/guides/`:
 - `SUBMISSION_PACKAGE.md` - Complete deliverables checklist
 - `PRESENTATION_DECK.md` - Slide-by-slide speaker notes
