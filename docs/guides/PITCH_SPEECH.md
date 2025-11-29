@@ -64,6 +64,10 @@
 
 "Ethiopia sits here: **12.8% tax-to-GDP ratio**—3 percentage points LOWER than Egypt.
 
+**[Gesture to entire chart showing all 14 countries]**
+
+"This pattern appears across the entire dataset, but let me show you the most striking example.
+
 **Now here's the puzzle:**
 
 Egypt's GDP growth? **3.6%.**  
@@ -126,7 +130,7 @@ Better tax collection is actually associated with LOWER growth in our dataset.
 
 **[Click to SLIDE 6: Ethiopia vs Egypt Case Study]**
 
-"The answer lies in **SDG 9: Infrastructure**—specifically, **where governments spend their money**.
+"The answer lies in **SDG 9: Infrastructure**—specifically, **where governments spend their money**. To illustrate this pattern we found across all 14 countries, let's compare two representative cases:
 
 **Egypt:**
 - Collects 15.2% of GDP in taxes ✅
