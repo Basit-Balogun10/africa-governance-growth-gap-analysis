@@ -2,7 +2,7 @@
 =====================================================
 
 Submitted by: Basit Balogun (basitbalogun10@gmail.com)
-GitHub Repository: https://github.com/Basit-Balogun10/10alytics-global-hackathon-2025
+GitHub Repository: https://github.com/Basit-Balogun10/africa-governance-growth-gap-analysis
 Date: November 29, 2025
 
 CONTENTS OF THIS ZIP:
@@ -10,7 +10,6 @@ CONTENTS OF THIS ZIP:
 
 1. PRESENTATION (START HERE):
    - presentation/10Alytics_Governance_Growth_Gap.pptx (16 slides with embedded images)
-   - docs/PITCH_SPEECH.md (Full 5-7 minute speech script)
 
 2. WORKING FILES (Jupyter Notebooks):
    - notebooks/01_data_exploration.ipynb
@@ -24,17 +23,20 @@ CONTENTS OF THIS ZIP:
    - visualizations/*.png (6 static charts @ 300 DPI)
    - visualizations/*.html (4 interactive Plotly charts)
    - visualizations/INTERACTIVE_DASHBOARD.html (Master dashboard)
-   
+
 4. DATA:
    - data/raw/ (Original dataset)
    - data/processed/ (Cleaned datasets)
 
 5. DOCUMENTATION:
-   - docs/README.md (Navigation guide)
-   - docs/SUBMISSION_PACKAGE.md (Complete deliverables checklist)
-   - docs/CRITICAL_AUDIT.md (Self-assessment & quality audit)
+   - README.md (Judge-focused overview - START HERE!)
    - docs/technical/ (Technical documentation)
-   - docs/guides/ (Presentation guides)
+   - docs/guides/SUBMISSION_PACKAGE.md (Complete deliverables checklist)
+   - docs/guides/PRESENTATION_DECK.md (Slide-by-slide guide)
+   - docs/guides/QUESTIONS_ANSWERED.md (FAQ responses)
+
+NOTE: Full pitch speech script available for physical finale if shortlisted.
+      GitHub repo contains complete project history: https://github.com/Basit-Balogun10/africa-governance-growth-gap-analysis
 
 KEY FINDINGS:
 -------------
