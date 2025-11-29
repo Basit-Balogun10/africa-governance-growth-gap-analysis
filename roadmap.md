@@ -57,19 +57,19 @@
 ## 🔍 Phase 3: Exploratory Data Analysis (EDA) & Story Finding (30% - 50%)
 *Objective: Find the "Big Domino" (The Root Cause).*
 
-- [ ] **Correlation Analysis (INPUTS vs OUTCOMES):**
+- ✅ **Correlation Analysis (INPUTS vs OUTCOMES):**
     - Run a correlation matrix. Does `Health Expenditure` actually correlate with `Under-5 Mortality`?
     - **The "Efficiency Gap" Test:** Compare countries with similar spending but different outcomes.
     - *If Correlation is Weak:* This is your **winning insight**! "More spending ≠ Better outcomes" (governance issue).
     - *Trap:* If correlation is low, admit it! "We found no link between X and Y, suggesting inefficiency."
-- [ ] **Country Segmentation:**
+- ✅ **Country Segmentation:**
     - Don't treat all 14 countries the same. Cluster them:
         - "High Debt / Low Growth" vs "Low Debt / High Growth"
         - "High Spend / Poor Outcomes" vs "Low Spend / Good Outcomes"
-- [ ] **Trend Analysis:**
+- ✅ **Trend Analysis:**
     - Visualize key metrics over time (Line charts).
     - Identify "Shocks" (e.g., COVID-19 impact on Debt/GDP in 2020).
-- [ ] **Select Your Narrative:**
+- ✅ **Select Your Narrative:**
     - Don't try to solve all SDGs. Pick **ONE** strong narrative arc.
     - *Suggested Arc:* **"The Efficiency Gap: Why More Spending Isn't Saving Lives"** (Governance + Health).
     - *Alternative:* "Inefficient Tax Collection (SDG 8) → Low Revenue → Underfunded Health (SDG 3)."

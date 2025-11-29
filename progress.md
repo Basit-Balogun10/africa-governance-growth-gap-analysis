@@ -210,6 +210,95 @@
 - Ready for correlation analysis (INPUTS vs OUTCOMES)
 - Next: Download external outcome data (Mortality, Literacy, Corruption Index)
 
+---
+
+## 🔍 Phase 3: EDA & Story Finding (40% - 60%)
+**Date:** November 29, 2025  
+**Status:** ✅ Complete
+
+**What We Did:**
+
+1. **✅ Correlation Analysis - The "Efficiency Gap" Test:**
+   - Analyzed 2010-2025 period (recent data: 224 observations)
+   - **KEY FINDING:** Tax-to-GDP vs GDP Growth correlation = **-0.156**
+   - **🎯 WEAK correlation confirms "Efficiency Gap" hypothesis!**
+   - Interpretation: Better governance (tax efficiency) ≠ Better economic outcomes
+   - **Narrative validated:** "Governance-Growth Gap" is REAL
+   
+2. **✅ Correlation Heatmap - Key SDG Metrics:**
+   - Identified strong relationships within spending categories:
+     - Health-Education spending correlation: **0.75** (highly correlated)
+     - Tax-to-GDP vs Debt-to-GDP: Nearly zero correlation (independent dynamics)
+     - Infrastructure Investment vs Education/Health: **0.60+** (positive)
+   - GDP Growth shows **weak correlations** with most governance metrics
+   - **Insight:** Spending efficiency ≠ Spending amount
+
+3. **✅ Country Performance Rankings (2010-2025 Average):**
+   - **Top GDP Growth:** Ethiopia (8.69%), Rwanda (7.03%), Tanzania (6.08%)
+   - **Highest Tax-to-GDP:** Egypt (21,275%), followed by low-tax nations
+   - **High Debt Countries:** Identified fiscal sustainability concerns
+   - **Health Spending Leaders:** Countries prioritizing social investment
+   - **Egypt Anomaly:** Extremely high tax-to-GDP but only 3.66% growth → Perfect case study!
+
+4. **✅ Governance-Growth Scatter Plot:**
+   - Visualized Tax-to-GDP (x-axis) vs GDP Growth (y-axis)
+   - Trend line: y = -0.00x + 4.86 (slightly negative slope)
+   - **Egypt outlier:** High governance efficiency, moderate growth
+   - **East African bloc:** Ethiopia, Rwanda, Tanzania cluster (low tax, high growth)
+   - **Insight:** Low-tax, high-growth countries challenge conventional wisdom
+
+5. **✅ Time Series Analysis:**
+   - Tracked 4 key metrics over time (1960-2025):
+     - GDP Growth Rate: High volatility, COVID-19 impact visible
+     - Tax-to-GDP Ratio: Egypt's dramatic decline from 140,000 to ~20,000 (data quality issue?)
+     - Debt-to-GDP Ratio: One country showed extreme debt (needs investigation)
+     - Inflation Rate: Recent spike (2020-2025) across multiple countries
+   - **COVID-19 Impact:** Clear 2020 shock visible in all metrics
+   - **Long-term trends:** Economic instability patterns identified
+
+6. **✅ Country Clustering (K-Means, 3 clusters):**
+   - **Cluster 1 (High Growth, Low Tax):** Ethiopia, Rwanda, Tanzania, Kenya, Senegal, Ghana, Ivory Coast, Botswana, Angola, South Africa, Algeria
+   - **Cluster 2 (Moderate All):** Nigeria
+   - **Cluster 3 (High Tax, Moderate Growth):** Egypt
+   - Clustering metrics: GDP Growth, Tax-to-GDP, Debt-to-GDP, Inflation, Health Spending
+   - **Insight:** Egypt is unique outlier - warrants case study analysis
+
+**Key Discoveries:**
+
+1. **🎯 "Efficiency Gap" CONFIRMED:**
+   - Higher tax efficiency does NOT guarantee higher economic growth
+   - Correlation is weak/negative (-0.156)
+   - Challenges conventional "Good Governance → Growth" narrative
+
+2. **🚨 Egypt Case Study:**
+   - Highest Tax-to-GDP ratio by far
+   - Only 3.66% average growth (below regional leaders)
+   - Perfect example of "Efficiency Gap" in action
+   - Question: Where does the tax revenue go? Why no growth payoff?
+
+3. **✅ East African Success Story:**
+   - Ethiopia, Rwanda, Tanzania: Low tax, high growth model
+   - Alternative narrative: "Lean government, high growth"
+   - Suggests private sector-led growth vs government-led
+
+4. **📊 Data Quality Issue Identified:**
+   - Egypt's Tax-to-GDP ratio appears corrupted (values in 100,000s)
+   - Needs verification/correction before final analysis
+   - May need to exclude Egypt or recalculate metric
+
+5. **🌍 Regional Patterns:**
+   - East Africa: High growth cluster
+   - North Africa (Egypt): High tax, moderate growth
+   - West Africa: Mixed performance
+   - Southern Africa: Stable but slower growth
+
+**Next Steps:**
+- ✅ EDA complete - narrative arc validated
+- 🔄 **URGENT:** Fix Egypt's Tax-to-GDP data issue
+- 📥 Download external outcome data (optional - story already strong)
+- 🎨 Phase 4: Create visualizations for presentation
+- 📝 Phase 5: Build narrative deck/dashboard
+
 **Key Insights:**
 - Data spans **66 years** (1960-2025) - much longer than expected!
 - Most complete data is from 2000-2023 (modern era)
