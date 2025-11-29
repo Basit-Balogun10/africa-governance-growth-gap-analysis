@@ -126,11 +126,9 @@
 ---
 
 ## 🛠️ Immediate Next Steps
-1. ✅ ~~Set up environment~~ (Complete)
-2. **NOW: Load the CSV and run Initial Audit:**
-   - Check data structure (23,784 rows, Long format).
-   - Identify duplicate indicators and convert `Amount` to numeric.
-   - **Map indicators to SDGs and calculate data completeness.**
-   - **Pick 3-5 SDGs with strongest stories** (most complete data + compelling narrative potential).
-3. **Next: Clean and Pivot** data to Wide format (Country-Year rows).
-4. **Then: Download external data** based on selected SDGs (World Bank: Mortality, Literacy, Poverty, etc.).
+1. ✅ ~~Set up environment~~
+2. ✅ ~~Load CSV and run Initial Audit~~ 
+3. ✅ ~~Clean and Pivot data to Wide format~~
+4. **NOW: Feature Engineering** - Create ratios, per capita metrics, growth rates
+5. **Next: Download and merge external data** (World Bank: Corruption, Poverty, Literacy)
+6. **Then: EDA & Correlation Analysis** - Find the story in the data
