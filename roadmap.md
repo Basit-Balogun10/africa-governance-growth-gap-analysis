@@ -68,6 +68,37 @@
         - "High Spend / Poor Outcomes" vs "Low Spend / Good Outcomes"
 - ✅ **Trend Analysis:**
     - Visualize key metrics over time (Line charts).
+
+## 🎨 Phase 4: Visualization & Dashboarding (50% - 75%)
+*Objective: Create presentation-ready charts that tell the story.*
+
+- ✅ **Executive Summary Chart:**
+    - Created "Governance-Growth Gap" quadrant chart
+    - Shows weak correlation (-0.139) between Tax-to-GDP and GDP Growth
+    - Color-coded countries: Green (success), Red (efficiency gap), Blue (others)
+- ✅ **Performance Comparison:**
+    - Top 5 vs Bottom 5 countries across 4 key metrics
+    - Highlights Ethiopia/Rwanda/Tanzania success vs Algeria/Angola/South Africa challenges
+- ✅ **COVID-19 Impact Visualization:**
+    - Time series (2015-2023) showing pandemic shock
+    - 4-panel dashboard: Growth, Debt, Inflation, Health spending
+    - Red highlight shows 2020 crisis period
+- ✅ **Case Study Deep-Dive:**
+    - Ethiopia vs Egypt comparison across 6 metrics
+    - Demonstrates "Efficiency Gap" - similar governance, different outcomes
+    - Ethiopia: 8.73% growth | Egypt: 3.70% growth (despite higher spending)
+- ✅ **SDG Performance Dashboard:**
+    - Heatmap showing all 14 countries across 5 SDG areas
+    - Color-coded: Green (high performance) to Red (low performance)
+    - Easy visual identification of strengths/weaknesses
+- ✅ **Executive Infographic:**
+    - One-page summary with key statistics
+    - 4 stat boxes: Efficiency Gap (-0.156), Top Performer (8.7%), Countries (14), Data Years (65)
+    - Main findings and policy recommendations in text boxes
+- ✅ **Export & Organization:**
+    - All 6 charts saved to `visualizations/` folder as high-res PNGs (300 DPI)
+    - Summary statistics exported to CSV for reference
+    - Ready for presentation deck integration
     - Identify "Shocks" (e.g., COVID-19 impact on Debt/GDP in 2020).
 - ✅ **Select Your Narrative:**
     - Don't try to solve all SDGs. Pick **ONE** strong narrative arc.
